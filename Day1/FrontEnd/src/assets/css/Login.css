@@ -1,0 +1,140 @@
+
+.login-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-image: url("https://media.istockphoto.com/id/1320944243/pt/foto/millennial-students-celebrating-graduation-ceremony-and-throwing-their-caps-up-young-people-on.jpg?s=170667a&w=0&k=20&c=L9szN_-9gBAvn9FWME-TJBVyf46hdZtFvYzmLQQ4ELo=");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 250vh;
+
+}
+
+.login-form {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  opacity: 0.79;
+  margin-right: 100px;
+
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary1 {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #382ab5, #1d0cb3);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 1s;
+}
+
+.btn-primary1:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  transform: scale(1.07);
+}
+
+.register-link1 {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 50%;
+  float: left;
+  transform: 2s;
+}
+
+.register-link2 {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 40%;
+  float: right;
+}
+
+p .register-link1:hover {
+  transform: scale(1.1);
+}
+
+.error-message {
+  color: red;
+}
+#role{
+  width: 250px;
+  height: 150px;
+  font-size: x-large;
+}
+/* Responsive styles using media queries */
+
+@media (max-width: 750px) {
+  .login-container {
+    background-size: cover;
+  }
+  .form-control{
+    width: 100%;
+  }
+  .login-form {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px;
+    opacity: 0.9;
+    padding: 20px;
+  }
+
+  .form-group {
+    margin-left: 0;
+  }
+
+  .btn-primary1 Link {
+    color: black;
+  }
+
+  .register-link1,
+  .register-link2 {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .btn-primary1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+
+  }
+  
+}
+
+/* @media (max-width: 450px) {
+  .login-container {
+    background-size: contain;
+  }
+} */
