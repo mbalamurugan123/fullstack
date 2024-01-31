@@ -1,0 +1,12 @@
+.html-home{
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV8zNF9waG90b19sYXRpbl93b21hbl9sZWFybmluZ19vbmxpbmVfYXRfaG9tZS1faF9iMzQwYTQ0OS1lNDZjLTQyZTItYjE3Mi04MWUxYWI3YzZkZjJfMS5qcGc.jpg");
+  /* height: 100vh; */
+  background-size: 200vh 100vh;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.container{
+  height: 100vh;
+  margin-top: 70px;
+}

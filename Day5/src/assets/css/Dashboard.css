@@ -1,0 +1,175 @@
+.body-card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 120vh;
+  width: 177vh;
+  margin-left: 40px;
+  margin-top: 100px;
+  /* padding-top: 100px; */
+}
+.dash-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 15%;
+  float: left;
+}
+
+.title {
+  color: grey;
+  font-size: 14px;
+}
+
+.con-but {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  background-image: linear-gradient(to right,rgb(220,65,49),rgb(226,116,57));
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.dash-ico {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.con-but:hover, a:hover {
+  opacity: 0.7;
+  
+}
+
+.mini-card{
+  float: left;
+  width: 30%;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.class-text{
+  margin-left: 40px;
+}
+.card1{
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right,rgb(231, 231, 231),rgb(255, 223, 223));
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.h4{
+  width: 100%;
+  float: left;
+} 
+.h4 h6{
+  margin-top: 20px;
+}
+
+
+.card2{
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right,rgb(231, 231, 231),rgb(255, 223, 223));
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 20px;
+  height: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+@media(max-width: 768px) {
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+  
+  #calendar, #calendar tr, #calendar tbody {
+    grid-template-columns: 1fr;
+  }
+  
+  #calendar  tr {
+    grid-column: 1 / 2;
+  }
+
+	#calendar .date {
+		align-self: flex-start;
+	}
+}
+.calander-box{
+  width: 40%;
+  margin-left: 50px;
+  float: left;
+  margin-top: 50px;
+}
+#calender{
+  height: 20px;
+}
+.body-upper-part{
+  width: 100%;
+  float: left;
+}
+.body-lower-part{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.part1{
+  width: 40%;
+  float: left;
+  margin-left: 50px;
+}
+.card3{
+
+  width: 90%;
+}
+.sub-card3{
+  background-image: linear-gradient(to right,#dee5e6,rgb(255, 223, 223));
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.sh-class-name {
+  margin-left: 30px;
+}
+.part2{
+  width: 50%;
+  float: left;
+
+}

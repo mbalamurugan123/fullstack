@@ -1,0 +1,60 @@
+.Payment-body{
+  background-image: url('https://img.freepik.com/free-vector/bank-card-coin-withdrawal-money-money-payment-symbol-vector-illustration_587448-912.jpg');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment-container {
+  width: 500px;
+  height: 500px;
+  /* margin: 0 auto; */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  /* margin-top: 150px; */
+  opacity: 0.88;
+}
+.payment-container h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 60px;  
+}
+
+.payment-form input{
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 70%;
+  margin-left: 60px;
+}
+
+.pay-button {
+  padding: 10px 20px;
+  margin-top: 50px;
+  background-image: linear-gradient(to right,rgb(220,65,49),rgb(226,116,57));
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 22%;
+  transition: 7s;
+}
+
+.pay-button:hover {
+  background-image: linear-gradient(to right,rgb(226,116,57),rgb(220,65,49));
+  
+}
